@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> DevOps Labs with GitHub Actions and Docker and more </title>
+</head>
+<body style="background-color:whitesmoke;">
+    <center>
+
+<div class="login">
+    <br><br><br>
+	<h1 style="color: black;"> </h1><br>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('hello')}}"method="post">
+        <input type="text" name="Name" placeholder="No Name Provided" required="required" style="width: 200;"/><br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large" style="width: 100; height: 30;">Get Result</button>
+    </form>
+
+   <br>
+   <br>
+   <p style="color:black;"><b >Result :</b> {{ hello_text }}</p>
+
+ </div> </center>
+    </body>
+</html>
